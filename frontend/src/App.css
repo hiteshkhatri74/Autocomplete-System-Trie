@@ -1,0 +1,77 @@
+*{
+  background-color:#a9f3f6;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.search-input {
+  background-color:white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: lightskyblue;
+  box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+.suggestions-list {
+  list-style-type: none;
+  margin: 20px auto;
+  padding: 0;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 3px;
+  background: #cfb9b9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.suggestions-list li {
+  padding: 10px;
+  border-bottom: 1px solid;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.suggestions-list li:hover,
+.active-suggestion {
+  background: white;
+  z-index: 2;
+}
+
+.add-word-container {
+  margin-bottom: 40px;
+}
+
+.add-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  background-color: white;
+}
+
+.add-btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
